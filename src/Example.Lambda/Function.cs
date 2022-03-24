@@ -28,19 +28,8 @@ namespace Example.Lambda
             });
             if (response)
             {
-                Console.WriteLine("deu bom");
+                Console.WriteLine("OK");
             }
-            // var result = await _elasticClient.PingAsync();
-            // if (response.IsValid)
-            // {
-            //     Console.WriteLine("Deu Ping");
-            //     Console.WriteLine(result.ApiCall.HttpStatusCode);
-            // }
-            // else
-            // {
-            //     Console.WriteLine("Nao Deu Ping");
-            //     Console.WriteLine($"Erro: " + result.OriginalException);
-            // }
 
             return input.ToUpper();
         }
